@@ -1,0 +1,124 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #007895;
+}
+
+#game-container {
+  background-color: #fff;
+  width: 400px;
+  margin: 20px auto;
+  border-radius: 5px;
+}
+
+#response {
+  height: 150px;
+  text-align: center;
+}
+
+#winner-message {
+  padding-top: 50px;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#other-player-move {
+  padding: 5px;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+
+#btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+#btn-container button {
+  text-transform: uppercase;
+  margin: 20px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007895;
+  color: #fff;
+}
+
+#btn-container button:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+#btn-container button:disabled {
+  opacity: 0.5;
+}
+
+input {
+  outline: none;
+}
+
+#chat-app-container {
+  background-color: rgb(255, 255, 255);
+  width: 400px;
+  margin: 20px auto;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+}
+
+#chat-app-container button {
+  text-transform: uppercase;
+  padding: 3px 15px;
+  color: white;
+  line-height: 25px;
+  border-radius: 5px;
+  background-color: #007895;
+  border: none;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.12) 0 1px 6px, rgba(0, 0, 0, 0.12) 0 1px 4px;
+  transition: all 150ms ease-in;
+  outline: none;
+}
+
+#chat-app-container button:hover {
+  background-color: #79d7e4;
+}
+
+#chat-app-container button.turn:hover {
+  background-color: #eaeaea;
+}
+
+ul {
+  list-style: none;
+  margin-bottom: 5px;
+  overflow-y: scoll;
+}
+
+li {
+  padding: 10px 10px 10px 10px;
+}
+
+#chat-container {
+  padding: 10px;
+}
+
+#chat-container form {
+  display: flex;
+}
+
+#chat-container form input {
+  font-size: 1.0rem;
+  margin: 0 10px 0 0;
+  padding: 0 5px;
+  flex-grow: 1;
+}
+
+#chat-container form button {
+  width: 80px;
+}
+
+#messages {
+  height: 150px;
+}

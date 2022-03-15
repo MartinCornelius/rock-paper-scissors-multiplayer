@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Rock Paper Scissors</title>
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <!-- Rock paper scissors game -->
+  <div id="game-container">
+    <div id="response">
+      <p id="winner-message"></p>
+      <p id="display-message">choose a move</p>
+    </div>
+    <div id="btn-container">
+      <button type="button" id="btnRock">Rock</button>
+      <button type="button" id="btnPaper">Paper</button>
+      <button type="button" id="btnScissors">Scissors</button>
+    </div>
+  </div>
+
+  <!-- Chat app -->
+  <div id="chat-app-container">
+    <div id="chat-container">
+      <ul id="messages"></ul>
+      <form id="chat-form">
+        <input autocomplete="off" title="chat" id="chat">
+        <button id="btnSend">Send</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="src/client.js"></script>
+</body>
+</html>
